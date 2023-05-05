@@ -1,0 +1,123 @@
+body {
+    background-color: #e1ded8;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: 600;
+}
+
+a {
+    color: #5b5b5b;
+}
+.espaco {
+    margin-left: 40px;
+}
+
+.perfil {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-image: url("https://avatars.githubusercontent.com/u/91496971?s=400&v=4");
+    background-size: cover;
+    border-radius: 100%;
+    border: black 3px solid;
+}
+
+.nome {
+    width: 90%;
+}
+
+.nome h1 {
+    color: black;
+    margin-left: 30px;
+}
+
+.nome h2, p {
+    color: #5b5b5b;
+    margin-left: 30px;
+}
+
+.nome h3 {
+    color: black;
+    margin-left: 30px;
+}
+
+.social {
+    width: 100%;
+    height: 50px;
+    
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+}
+
+.links1, .links2, .links3 {
+    width: 10%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*CSS Projeto*/
+
+.titulo1 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CSS Contatos*/
+
+.contacts {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts button {
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.contacts input {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.inp2 {
+    height: 120px;
+}
